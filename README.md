@@ -1,6 +1,6 @@
 # Magic Quest 🎮✨
 
-**Magic Quest** es un juego de rol de aventuras construido con React y Vite. En este mundo mágico, los jugadores asumen el papel de un héroe, enfrentándose a monstruos, resolviendo acertijos y completando misiones épicas.
+**Magic Quest** es la plataforma de un juego de rol de aventuras construido con React y Vite. En este mundo mágico, los jugadores asumen el papel de un héroe, enfrentándose a monstruos, resolviendo acertijos y completando misiones épicas.
 
 ## 🚀 Tecnologías utilizadas
 
@@ -13,7 +13,8 @@
 
 ## 📁 Estructura del proyecto
 
-- `src/components/Navbar.jsx` – Barra de navegación responsive con enlaces y redes sociales.
+- `src/components/Navbar.jsx` – Barra de navegación responsive con enlaces a secciones del sitio y redes profesionales del autor.
+- `src/components/Footer.jsx` – Pie de página con marca, lema, derechos reservados y accesos a medios de contacto.
 - `src/components/Hero.jsx` – Sección de bienvenida con presentación del personaje y descripción del juego.
 - `src/utility/animation.js` – Animaciones reutilizables con Framer Motion.
 - `index.css` – Estilos globales con Tailwind y fuentes personalizadas.
@@ -26,30 +27,31 @@
 - `npm run preview` – Visualiza el build localmente.
 - `npm run lint` – Ejecuta ESLint para verificar el código.
 
-## 🌐 Enlaces simulados
+## 🌐 Enlaces del sitio
 
 - Inicio
 - Sobre nosotros
 - Servicios
 - Contacto
 
-## 📲 Redes sociales
+## 📲 Redes profesionales
 
-Incluye enlaces a:
-- Facebook
-- Instagram
-- TikTok
-- YouTube
+Incluye accesos a:
+- LinkedIn
+- Portafolio
+- Email
+- WhatsApp
+- Curriculum Vitae
 
 ## 📦 Instalación
 
-1. Clona este repositorio
-2. Ejecuta `npm install` para instalar las dependencias
-3. Ejecuta `npm run dev` para iniciar el proyecto
+1. Clona este repositorio.
+2. Ejecuta `npm install` para instalar las dependencias.
+3. Ejecuta `npm run dev` para iniciar el proyecto.
 
-## 👨‍🎨 Autor
+## 👨‍💻 Autor
 
-Proyecto creado por [Tu Nombre Aquí]. ¡Modifica este README para personalizarlo aún más!
+Proyecto desarrollado por Omar Leonardo Caiguan Ojeda bajo la marca **GEM IT**. Todos los derechos reservados © 2025.
 
 ---
 
