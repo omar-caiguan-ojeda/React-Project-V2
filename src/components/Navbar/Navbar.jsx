@@ -27,27 +27,33 @@ const navbarLinks = [
 const navbarRedes = [
     {
         id: 1,
-        title: "Facebook",
-        icon: "bi bi-facebook",
-        url: "https://www.facebook.com/",
+        title: "LinkedIn",
+        icon: "bi bi-linkedin",
+        url: "https://www.linkedin.com/in/omar-leonardo-caiguan-ojeda/",
     },
     {
         id: 2,
-        title: "Instagram",
-        icon: "bi bi-instagram",
-        url: "https://www.instagram.com/",
+        title: "Portafolio",
+        icon: "bi bi-window",
+        url: "https://omar-caiguan.vercel.app/",
     },
     {
         id: 3,
-        title: "TikTok",
-        icon: "bi bi-tiktok",
-        url: "https://www.tiktok.com/",
+        title: "Email",
+        icon: "bi bi-envelope",
+        url: "mailto:omar.caiguan@gmail.com",
     },
     {
         id: 4,
-        title: "Youtube",
-        icon: "bi bi-youtube",
-        url: "https://www.youtube.com/",
+        title: "WhatsApp",
+        icon: "bi bi-whatsapp",
+        url: "https://wa.me/+56930579869",
+    },
+    {
+        id: 5,
+        title: "Curriculum Vitae",
+        icon: "bi bi-file-earmark-person",
+        url: "https://drive.google.com/file/d/1JU3sMX3lCxJvKdDRsAvTvntZaYxaS0ET/view?usp=drive_link",
     },
 ]
 
@@ -90,13 +96,10 @@ const Navbar = () => {
                         strokeWidth='2'
                         d='M4 6h16M4 12h16M4 18h16'
                         />) 
-                    }
-                    
-                    
+                    }                  
                 </svg>
             </button>
-
-                
+               
             {/* Menú Links */}
             <div className='hidden md:block'>
                 <ul className='flex sm:space-x-12 space-x-4'>
@@ -118,6 +121,7 @@ const Navbar = () => {
                     {navbarRedes.map((red) => (
                         <li key={red.id}>
                             <a 
+                            title={red.title}
                             target='_blank'
                             rel='noopener noreferrer'
                             className='inline-block transition-transform duration-300 transform hover:scale-125'
@@ -150,6 +154,7 @@ const Navbar = () => {
                 {navbarRedes.map((red) => (
                     <li key={red.id}>
                         <a 
+                        title={red.title}
                         target='_blank'
                         rel='noopener noreferrer'
                         className='inline-block'
@@ -160,10 +165,7 @@ const Navbar = () => {
                     </li>
                 ))}
             </ul>
-
-
         </div>
-
     </nav>
   )
 }
